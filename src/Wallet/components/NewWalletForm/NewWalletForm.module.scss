@@ -1,0 +1,36 @@
+.newwalletform{
+    width: max-content;
+    margin: 70px auto;
+}
+.addWallet {
+    display: flex;
+    margin-left: 220px;
+    width: 70px;
+    height: 30px;
+}
+.addWallet button{
+    width: 70px;
+    height: 30px;
+    background-color: #090B10;
+    border: 1px solid #090B10;
+    color: white;
+}
+.inputelement input,.inputelement textarea {
+    border: 1px solid rgb(134, 132, 132);
+    padding: 8px;
+    margin-left: 50px;
+}
+.inputarea{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    width: 300px;
+    padding: 0 20px;
+}
+label{
+    width: 20%;
+}
+.inputelement {
+    margin-bottom: 16px;
+    margin-top: 8px;
+}

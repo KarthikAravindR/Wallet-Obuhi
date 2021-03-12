@@ -1,0 +1,38 @@
+@import "../../../shared/UIElements/SharedStyling.module.scss";
+
+.spendForm{
+    width: 400px;
+    height: 250px;
+    margin: 70px auto;
+}
+.spendForm label{
+    // margin-right: 60px;
+    display: inline-block;
+    width: 130px;
+}
+.spendForm select{
+    width: 200px;
+}
+.spendinputarea input,.spendinputarea textarea {
+    border: 1px solid rgb(134, 132, 132);
+    padding: 5px 15px;
+}
+.spendinputarea{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.spendWallet {
+    display: flex;
+    margin-left: 170px;
+    width: 70px;
+    height: 30px;
+    margin-top: 40px;
+}
+.spendWallet button{
+    width: 70px;
+    height: 30px;
+    background-color: #090B10;
+    border: 1px solid #090B10;
+    color: white;
+}

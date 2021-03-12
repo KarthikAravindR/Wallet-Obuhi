@@ -1,0 +1,27 @@
+.container{
+    width: max-content;
+    margin: auto;
+    width: 100%;
+}
+.tableHeader{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tableContent{
+    width: 25%;
+    height: 51px;
+    text-align: left;
+    padding-left: 5px;
+    box-sizing: border-box;
+    background-color: rgb(156, 225, 248);
+    border: .1px solid rgb(245, 245, 245);
+}
+.tableElementContent{
+    width: 25%;
+    height: 51px;
+    text-align: left;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border: .1px solid rgb(245, 245, 245);
+}

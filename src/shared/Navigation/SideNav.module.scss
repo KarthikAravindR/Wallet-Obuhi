@@ -1,0 +1,28 @@
+.container{
+    margin: 0;
+}
+.sideNavLink{
+    display: block;
+    width: 99%;
+    min-height: 50px;
+    max-height: max-content;
+    word-wrap: break-word;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
+    margin-left: auto;
+    border-radius: 4px 0 0 4px;
+}
+.sideNavLink:active,.sideNavLink:hover{
+    color: white;
+    text-decoration: none;
+}
+.activeSideNavLink{
+    color: black;
+    background-color: white;
+}
+.activeSideNavLink:active,.activeSideNavLink:hover{
+    color: black;
+    background-color: white;
+}
